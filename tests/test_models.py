@@ -79,3 +79,7 @@ class PersonAttributeTestCase(ModelsTestCase):
             models.PersonAttribute(person=self.person,
                                    attribute=self.attribute,
                                    value=False).save()
+
+    @unittest.skip('not implemented yet')
+    def test_get_person_matches(self):
+        pass
